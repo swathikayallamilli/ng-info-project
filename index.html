@@ -1,0 +1,509 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>
+        Onboarding Tool
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        section {
+            background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+        }
+
+        i {
+            border-radius: 50%;
+            padding: 10px;
+            margin-right: 150px;
+        }
+
+        h1 {
+            padding-bottom: 50px;
+            padding-top: 30px;
+            text-align: left;
+        }
+
+        button i {
+            margin-right: 8px;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <img alt="UIROLL Logo" class="h-10" height="40" src="ng logo.webp" width="40">
+                <nav class="flex space-x-4">
+                    <a class="text-gray-700 hover:text-blue-600" href="#">
+                        Home
+                    </a>
+                    <a class="text-gray-700 hover:text-blue-600" href="#">
+                        Analytics
+                    </a>
+                    <a class="text-gray-700 hover:text-blue-600" href="#">
+                        Platform Customization
+                    </a>
+                </nav>
+            </div>
+            <div class="flex items-center space-x-4">
+                <input class="border rounded-full px-4 py-2" placeholder="Search here..." type="text">
+                <i class="bi bi-search"></i>
+                <img alt="User Avatar" class="h-10 rounded-full" height="40" src="ng profile.jpg" width="40">
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto px-4 py-8">
+        <section class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-black-600 ml-4">
+                <p>Welcome</p>
+                to Onboarding Tool!
+            </h1>
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <i class="bi bi-lightbulb" style="background-color:brown"></i>
+                            <h2 class="text-lg font-semibold mt-4">
+                                Onboarding This Month
+                            </h2>
+                            <p class="text-2xl font-bold mt-4">
+                                15
+                            </p>
+                        </div>
+                        <div class="text-green-500 text-xl" style="margin-bottom: 100px;">
+                            +45%
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <i class="bi bi-person" style="background-color:green"></i>
+                            <h2 class="text-lg font-semibold mt-4">
+                                Total Onboarding This Year
+                            </h2>
+                            <p class="text-2xl font-bold mt-4">
+                                135
+                            </p>
+                        </div>
+                        <div class="text-green-500 text-xl" style="margin-bottom: 100px;">
+                            +16%
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <i class="bi bi-graph-up" style="background-color:orange"></i>
+                            <h2 class="text-lg font-semibold mt-4">
+                                Onboarding Journeys In Progress
+                            </h2>
+                            <p class="text-2xl font-bold mt-4">
+                                5
+                            </p>
+                        </div>
+                        <div class="text-red-500 text-xl" style="margin-bottom: 100px;">
+                            -10%
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <i class="bi bi-file-earmark-bar-graph" style="background-color:purple"></i>
+                            <h2 class="text-lg font-semibold mt-4">
+                                Avg Onboarding Evaluation Score
+                            </h2>
+                            <p class="text-2xl font-bold mt-4">
+                                8.5
+                            </p>
+                        </div>
+                        <div class="text-green-500 text-xl" style="margin-bottom: 100px;">
+                            +5%
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <div class="bg-white p-8 rounded-lg shadow mb-8">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="mb-4 md:mb-0">
+                    <h2 class="text-2xl font-bold">
+                        Do not know where to start?
+                    </h2>
+                    <p class="text-gray-600">
+                        Take a quick tour of our onboarding tool to know how to onboard an employee
+                    </p>
+                </div>
+                <button class="bg-blue-600 text-white px-6 py-2 rounded-full">
+                    Start a tour
+                </button>
+            </div>
+            <div class="flex justify-center mt-4">
+                <img alt="Illustration of a person sitting on a chair" height="200" src="ng image.avif" width="200">
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+            <button class="bg-blue-600 text-white px-6 py-2 rounded-full">
+                View Dashboard
+            </button>
+            <button class="bg-green-600 text-white px-6 py-2 rounded-full">
+                Add New Employee
+            </button>
+            <button class="bg-blue-900 text-white px-6 py-2 rounded-full">
+                Customization
+            </button>
+        </div>
+        <div class="bg-white p-8 rounded-lg shadow">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="text-xl font-bold">
+                    Check on NG onboarding employees
+                </h2>
+                <div class="flex items-center space-x-4">
+                    <input class="border rounded-full px-4 py-2" placeholder="Search for employees here..." type="text">
+                    <i class="bi bi-search"></i>
+                    <button class="bg-gray-200 p-2 rounded-full">
+                        <i class="fas fa-filter">
+                        </i>
+                        Filter
+                    </button>
+                    <button class="bg-gray-200 p-2 rounded-full">
+                        <i class="fas fa-file-export">
+                        </i>
+                        Export
+                    </button>
+                </div>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="min-w-full bg-white">
+                    <thead>
+                        <tr>
+                            <th class="py-2 px-4 border-b">
+                                Name
+                            </th>
+                            <th class="py-2 px-4 border-b">
+                                Employee ID
+                            </th>
+                            <th class="py-2 px-4 border-b">
+                                Type
+                            </th>
+                            <th class="py-2 px-4 border-b">
+                                Progress
+                            </th>
+                            <th class="py-2 px-4 border-b">
+                                Status
+                            </th>
+                            <th class="py-2 px-4 border-b">
+                                Start Date
+                            </th>
+                            <th class="py-2 px-4 border-b">
+                                Unit
+                            </th>
+                            <th class="py-2 px-4 border-b">
+                                Hiring Manager
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2 px-4 border-b">
+                                Cody Fisher
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                GAD501
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                New Employee
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                1/5
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                In-Progress
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                3/16/13
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                NG Oy
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                Leslie Alexander
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">
+                                Darrell Steward
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                GAD502
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                New Employee
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                1/5
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                In-Progress
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                4/4/18
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                NG Info
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                Darlene Robertson
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">
+                                Brooklyn Simmons
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                GAD503
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                New Employee
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                1/5
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                In-Progress
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                5/27/18
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                NG Rental
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                Jerome Bell
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">
+                                Wade Warren
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                GAD504
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                New Employee
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                1/5
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                In-Progress
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                5/18/17
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                NG Oy
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                Theresa Webb
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">
+                                Eleanor Pena
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                GAD505
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                New Employee
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                1/5
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                In-Progress
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                3/16/13
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                NG Oy
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                Kathryn Murphy
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">
+                                Kathryn Murphy
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                GAD506
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                New Employee
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                1/5
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                In-Progress
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                3/16/13
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                NG Oy
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                Devon Lane
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">
+                                Eleanor Pena
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                GAD507
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                New Employee
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                1/5
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                In-Progress
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                3/16/13
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                NG Info
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                Courtney Henry
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">
+                                Leslie Alexander
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                GAD508
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                New Employee
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                1/5
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                In-Progress
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                3/16/13
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                NG Rental
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                Darrell Steward
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">
+                                Jacob Jones
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                GAD509
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                New Employee
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                1/5
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                In-Progress
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                3/16/13
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                NG Info
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                Cody Fisher
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">
+                                Esther Howard
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                GAD510
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                Returning
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                1/5
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                In-Progress
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                3/16/13
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                NG CDF
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                Guy Hawkins
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">
+                                Ralph Edwards
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                GAD511
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                Returning
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                1/5
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                In-Progress
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                3/16/13
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                NG Oy
+                            </td>
+                            <td class="py-2 px-4 border-b">
+                                Arlene McCoy
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
